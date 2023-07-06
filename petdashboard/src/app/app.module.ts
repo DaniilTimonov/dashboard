@@ -10,6 +10,7 @@ import { SalesByMonthComponent } from './sales-by-month/sales-by-month.component
 import { SalesByCategoryComponent } from './sales-by-category/sales-by-category.component';
 import { LastFewTransactionsComponent } from './last-few-transactions/last-few-transactions.component';
 import { TopThreeProductsComponent } from './top-three-products/top-three-products.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TopThreeProductsComponent } from './top-three-products/top-three-produc
     TopThreeProductsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
